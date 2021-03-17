@@ -1,15 +1,25 @@
 package model;
 
 public class Modelo_Lista2 {
+	private int id;
 	private String descricao;
 
 	public Modelo_Lista2() {
 		super();
 	}
 
-	public Modelo_Lista2(String descricao) {
+	public Modelo_Lista2(int id, String descricao) {
 		super();
+		this.id = id;
 		this.descricao = descricao;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
 	}
 
 	public String getDescricao() {
@@ -22,7 +32,7 @@ public class Modelo_Lista2 {
 
 	@Override
 	public String toString() {
-		return "Modelo [descricao=" + descricao + "]";
+		return "\nModelo_Lista2 [id=" + id + ", descricao=" + descricao + "]";
 	}
 	
 }
