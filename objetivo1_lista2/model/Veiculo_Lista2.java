@@ -1,5 +1,7 @@
 package model;
 
+import java.text.NumberFormat;
+
 public class Veiculo_Lista2 {
 	//atributos
 	private String renavan;
@@ -9,7 +11,7 @@ public class Veiculo_Lista2 {
 	private String combustivel;
 	private Integer quilometragem;
 	private String chassi;
-	private Double valor_locacao;
+	private double valor_locacao;
 	
 	public Veiculo_Lista2() {
 		super();
@@ -84,11 +86,11 @@ public class Veiculo_Lista2 {
 		this.chassi = chassi;
 	}
 
-	public Double getValor_locacao() {
-		return valor_locacao;
+	public String getValor_locacao() {
+		return NumberFormat.getCurrencyInstance().format(valor_locacao);
 	}
 
-	public void setValor_locacao(Double valor_locacao) {
+	public void setValor_locacao(double valor_locacao) {
 		this.valor_locacao = valor_locacao;
 	}
 
@@ -96,7 +98,7 @@ public class Veiculo_Lista2 {
 	public String toString() {
 		return "\nVeiculo [renavan=" + renavan + ", placa=" + placa + ", cor=" + cor + ", num_rodas=" + num_rodas
 				+ ", combustivel=" + combustivel + ", quilometragem=" + quilometragem + ", chassi=" + chassi
-				+ ", valor_locacao=" + valor_locacao + "]";
+				+ ", valor_locacao=" + NumberFormat.getCurrencyInstance().format(valor_locacao) + "]";
 	}
 	
 }
