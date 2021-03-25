@@ -57,6 +57,7 @@ public class Produto_Lista1 {
 		}
 	}
 
+	@Override
 	public String toString() {
 		return "\nProduto_Lista1 [id=" + id + ", nome=" + nome + ", valor=" + NumberFormat.getCurrencyInstance().format(valor) + ", estoque=" + estoque + "]";
 	}
