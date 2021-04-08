@@ -8,6 +8,6 @@
 	<classpathentry kind="src" path="objetivo1_aulas"/>
 	<classpathentry kind="src" path="objetivo1_lista1"/>
 	<classpathentry kind="src" path="objetivo1_lista2"/>
-	<classpathentry kind="src" path="avaliacao1"/>
+	<classpathentry kind="src" path="objetivo2_heranca_simples_aulas"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

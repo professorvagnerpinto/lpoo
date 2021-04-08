@@ -1,14 +1,14 @@
 package model;
 
-public class Conta {
+public class ContaObjetivo1 {
 	private int id;
 	private double saldo;
 
-	public Conta() {
+	public ContaObjetivo1() {
 		super();
 	}
 
-	public Conta(int id, double saldo) {
+	public ContaObjetivo1(int id, double saldo) {
 		super();
 		this.id = id;
 		this.saldo = saldo;

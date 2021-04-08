@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Map;
 
 import model.Conta;
+import model.ContaObjetivo1;
 
 public class ContaController {
 
@@ -14,8 +15,8 @@ public class ContaController {
 		//1
 		
 		//constrói instâncias da classe
-		Conta conta1 = new Conta(); //utilizando o construtor padrão
-		Conta conta2 = new Conta(2, 2000.00); //utilizando o construtor parametrizado
+		ContaObjetivo1 conta1 = new ContaObjetivo1(); //utilizando o construtor padrão
+		ContaObjetivo1 conta2 = new ContaObjetivo1(2, 2000.00); //utilizando o construtor parametrizado
 		
 		//imprime essas instâncias
 		System.out.println("Contas criadas com os contrutores padrão e parametrizado");
@@ -43,12 +44,12 @@ public class ContaController {
 		
 		//2	
 		//para desenvolver o que foi solicitado no item 2, a classe de modelo recebeu mais um atributo, o id
-		Conta conta3 = new Conta(3, 1000.00);
-		Conta conta4 = new Conta(4, 500.00);
-		Conta conta5 = new Conta(4, 500.00);
+		ContaObjetivo1 conta3 = new ContaObjetivo1(3, 1000.00);
+		ContaObjetivo1 conta4 = new ContaObjetivo1(4, 500.00);
+		ContaObjetivo1 conta5 = new ContaObjetivo1(4, 500.00);
 		
 		//coleção do tipo List
-		List<Conta> contasList = new ArrayList<>();
+		List<ContaObjetivo1> contasList = new ArrayList<>();
 		contasList.add(conta1);
 		contasList.add(conta2);
 		contasList.add(conta3);
@@ -59,17 +60,17 @@ public class ContaController {
 		//pesquisando na coleção (método filter)
 		System.out.println();
 		System.out.print("Localizando o Conta pela chave de pesquisa (id=3) na coleção do tipo List ...");
-		Conta ContaFind = contasList.stream().filter(c -> c.getId() == 3).findAny().orElse(null);
+		ContaObjetivo1 ContaFind = contasList.stream().filter(c -> c.getId() == 3).findAny().orElse(null);
 		System.out.println(ContaFind);
 		
 		//ordenando a coleçao do tipo List
 		System.out.println();
-		contasList.sort(Comparator.comparing(Conta::getId).reversed());
+		contasList.sort(Comparator.comparing(ContaObjetivo1::getId).reversed());
 		System.out.println("\nColeção do tipo List em ordem decrescente, chave id");
 		System.out.println(contasList);
 		
 		//coleção do tipo Map
-		Map<Integer, Conta> contasMap = new HashMap<>();
+		Map<Integer, ContaObjetivo1> contasMap = new HashMap<>();
 		contasMap.put(conta1.getId(), conta1);
 		contasMap.put(conta2.getId(), conta2);
 		contasMap.put(conta3.getId(), conta3);
