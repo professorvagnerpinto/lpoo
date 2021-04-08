@@ -6,10 +6,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import model.Conta;
 import model.ContaObjetivo1;
 
-public class ContaController {
+public class ContaControllerObjetivo1 {
 
 	public static void main(String[] args) {
 		//1

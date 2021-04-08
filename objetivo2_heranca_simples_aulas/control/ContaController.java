@@ -2,9 +2,9 @@ package control;
 
 import model.ContaPoupanca;
 import model.ContaCorrente;
-import model.Conta;
+//import model.Conta;
 
-public class ContaControllerHerancaSimples {
+public class ContaController {
 
 	public static void main(String[] args) {
 		//Conta conta1 = new Conta();
