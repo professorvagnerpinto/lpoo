@@ -11,5 +11,6 @@
 	<classpathentry kind="src" path="objetivo2_heranca_simples_aulas"/>
 	<classpathentry kind="src" path="objetivo2_heranca_simples_v"/>
 	<classpathentry kind="src" path="objetivo2_heranca_multipla_v"/>
+	<classpathentry kind="src" path="polimorfismo"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
