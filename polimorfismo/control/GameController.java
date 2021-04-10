@@ -43,7 +43,7 @@ public class GameController {
 	        	p.mover(6,6);
 	        }
 	    });
-	    System.out.println("\nNova posição Inicial dos Personagens:");
+	    System.out.println("\nNova posição dos Personagens:");
 	    System.out.println(personagens);
 	}
 	
