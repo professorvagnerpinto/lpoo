@@ -1,6 +1,6 @@
 package model;
 
-public class ContaPoupancaSalario extends ContaPoupancaV {
+public class ContaPoupancaSalarioV extends ContaPoupancaV {
 
 	@Override
 	public String toString() {

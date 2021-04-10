@@ -2,7 +2,7 @@ package control;
 
 import model.ContaConjuntaV;
 import model.ContaCorrenteV;
-import model.ContaPoupancaSalario;
+import model.ContaPoupancaSalarioV;
 import model.ContaPoupancaV;
 
 //import model.ContaV;
@@ -18,7 +18,7 @@ public class ContaControllerV {
 		
 		ContaConjuntaV cj1 = new ContaConjuntaV();
 		
-		ContaPoupancaSalario cps1 = new ContaPoupancaSalario();
+		ContaPoupancaSalarioV cps1 = new ContaPoupancaSalarioV();
 		
 		cc1.deposita(1000.00);
 		//System.out.println("Saldo em Conta Corrente=" + cc1.getSaldo());
