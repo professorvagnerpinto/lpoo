@@ -36,7 +36,7 @@ public class GameController {
 	    personagens.forEach((p) -> {
 	        p.desenhar(); //uma chamada, vários comportamentos em tempo de execução (usa a sobrescrita para isso, a 3a.forma de se fazer Polimorfismo)
 	        if(p instanceof Aviao){ //chama um comportamento que só tem na subclasse (Exemplo do uso de instanceof)
-	            ((Aviao)p).mover3D(2, 2, 2); //faz downcasting, isto é, sai de Personagem para Avião, e chama um comportamento da subclasse
+	            ((Aviao)p).mover(2, 2, 2); //faz downcasting, isto é, sai de Personagem para Avião, e chama um comportamento da subclasse
 	        } else if(p instanceof Navio){
 	        	p.mover(4,4);
 	        } else if(p instanceof Tanque) {

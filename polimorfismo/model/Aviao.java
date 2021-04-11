@@ -24,8 +24,9 @@ public class Aviao extends Personagem {
         System.out.println("\nDesenhou um Aviao.");
     }
 
-    //Esse comportamento só existe nessa subclasse
-    public void mover3D(double x, double y, double z){
+    //Esse comportamento só existe nessa subclasse, notem que eu reutilizei no nome, mover, mas a assinatura é diferente.
+    //Logo, isso é uma sobrecarga de método, não uma sobrescrita.
+    public void mover(double x, double y, double z){
         System.out.println("Moveu um Aviao3D.");
         this.x = x;
         this.y = y;
