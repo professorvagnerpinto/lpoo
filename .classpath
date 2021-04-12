@@ -13,5 +13,6 @@
 	<classpathentry kind="src" path="objetivo2_heranca_multipla_v"/>
 	<classpathentry kind="src" path="objetivo2_polimorfismo_aulas"/>
 	<classpathentry kind="src" path="objetivo2_polimorfismo_v"/>
+	<classpathentry kind="src" path="java_static"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

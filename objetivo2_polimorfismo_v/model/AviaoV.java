@@ -29,7 +29,7 @@ public class AviaoV extends PersonagemV{
 
 	@Override
 	public String toString() {
-		return "\n¬AviaoV [z=" + z + ", x=" + x + ", y=" + y + "]";
+		return "\nAviaoV [z=" + z + ", x=" + x + ", y=" + y + "]";
 	}
 	
 	
