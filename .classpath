@@ -15,5 +15,6 @@
 	<classpathentry kind="src" path="objetivo2_polimorfismo_v"/>
 	<classpathentry kind="src" path="java_static"/>
 	<classpathentry kind="src" path="java_downcasting"/>
+	<classpathentry kind="src" path="objetivo3_outras_associacoes_classes"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
