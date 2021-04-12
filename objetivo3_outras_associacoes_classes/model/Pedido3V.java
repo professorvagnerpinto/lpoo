@@ -1,6 +1,8 @@
 package model;
 
+import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.List;
 
 public class Pedido3V {
 	private Long id;
@@ -12,13 +14,15 @@ public class Pedido3V {
 	private Boolean situacao;
 	//ligação entre as classes Pedido x Cliente
 	Cliente3V cliente;
+	//composição com a classe ItemPedido
+	List<ItemPedido3V> itens = new ArrayList<>();
 	
 	public Pedido3V() {
 		super();
 	}
 
 	public Pedido3V(Long id, String formaPagamento, String estado, Calendar dataCriacao, Calendar dataModificacao,
-			Double totalPedido, Boolean situacao, Cliente3V cliente) {
+			Double totalPedido, Boolean situacao, Cliente3V cliente, List<ItemPedido3V> itens) {
 		super();
 		this.id = id;
 		this.formaPagamento = formaPagamento;
@@ -28,6 +32,7 @@ public class Pedido3V {
 		this.totalPedido = totalPedido;
 		this.situacao = situacao;
 		this.cliente = cliente;
+		this.itens = itens;
 	}
 
 	public Long getId() {
@@ -94,11 +99,19 @@ public class Pedido3V {
 		this.cliente = cliente;
 	}
 
+	public List<ItemPedido3V> getItens() {
+		return itens;
+	}
+
+	public void setItens(List<ItemPedido3V> itens) {
+		this.itens = itens;
+	}
+
 	@Override
 	public String toString() {
 		return "\nPedido3V [id=" + id + ", formaPagamento=" + formaPagamento + ", estado=" + estado + ", dataCriacao="
 				+ dataCriacao + ", dataModificacao=" + dataModificacao + ", totalPedido=" + totalPedido + ", situacao="
-				+ situacao + ", cliente=" + cliente + "]";
+				+ situacao + ", cliente=" + cliente + ", itens=" + itens + "]";
 	}
-	
+		
 }
