@@ -16,6 +16,6 @@
 	<classpathentry kind="src" path="java_static"/>
 	<classpathentry kind="src" path="java_downcasting"/>
 	<classpathentry kind="src" path="objetivo3_outras_associacoes_classes_v"/>
-	<classpathentry kind="src" path="tratamento_excecoes_v"/>
+	<classpathentry kind="src" path="objetivo4_tratamento_excecoes_v"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
