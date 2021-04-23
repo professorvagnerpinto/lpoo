@@ -8,6 +8,8 @@ import model.ContaPoupancaV;
 //import model.ContaV;
 
 public class ContaControllerV {
+	
+	static double total_folha=0.0;
 
 	public static void main(String[] args) {
 		//ContaV conta1 = new ContaV();
