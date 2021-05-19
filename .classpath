@@ -21,5 +21,6 @@
 	<classpathentry kind="src" path="objetivo2_lista1_heranca_multipla"/>
 	<classpathentry kind="src" path="objetivo2_lista2_heranca_multipla"/>
 	<classpathentry kind="src" path="objetivo2_lista1_polimorfismo"/>
+	<classpathentry kind="src" path="objetivo3_lista1"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

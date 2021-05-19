@@ -4,6 +4,7 @@ public abstract class ContaV {
 
 	protected double saldo;
 	
+	
 	public double getSaldo() {
 		return saldo;
 	}

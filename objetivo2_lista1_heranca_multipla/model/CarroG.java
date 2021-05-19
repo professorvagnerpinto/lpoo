@@ -20,7 +20,7 @@ public class CarroG extends VeiculoG implements AutomovelG {
 		this.chassi = chassi;
 		this.placa = placa;
 	}
-	
+
 	public int getCapacidadePortaMalas() {
 		return capacidadePortaMalas;
 	}

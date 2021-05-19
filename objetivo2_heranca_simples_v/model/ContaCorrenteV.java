@@ -1,6 +1,9 @@
 package model;
 
 public class ContaCorrenteV extends ContaV {
+	
+	
+
 
 	@Override
 	public void saca(double valor) {
