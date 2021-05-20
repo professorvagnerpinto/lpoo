@@ -9,7 +9,7 @@ public class FuncionarioL1 {
 	private String nome;
 	private String sobrenome;
 	private Calendar dataNascimento;
-	
+
 	public FuncionarioL1() {
 		super();
 	}
@@ -68,14 +68,14 @@ public class FuncionarioL1 {
 		return "\nFuncionarioL1 [id=" + id + ", cpf=" + cpf + ", nome=" + nome + ", sobrenome=" + sobrenome
 				+ ", dataNascimento=" + calendarToString(dataNascimento) + "]";
 	}
-	
-	//métodos utilitários para conversão de Calendar para String formatada
-		private static String calendarToString(Calendar data) {
-			if(data != null) {
-				SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/YYYY");
-				return sdf.format(data.getTime());
-			}
-			return "00/00/0000 00:00";
+
+	// métodos utilitários para conversão de Calendar para String formatada
+	private static String calendarToString(Calendar data) {
+		if (data != null) {
+			SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/YYYY");
+			return sdf.format(data.getTime());
 		}
+		return "00/00/0000 00:00";
+	}
 
 }

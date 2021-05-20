@@ -36,7 +36,6 @@ public class EmpresaController {
 		e2.getFuncionarios().sort(Comparator.comparing(FuncionarioL1::getNome));
 		System.out.println(e2);
 		
-		//d
 		System.out.println("\n\nLista de Funcionários por Empresa (critério idade)");
 		System.out.print("\nEmpresa " + e1.getNomeFantasia());
 		e1.getFuncionarios().sort(Comparator.comparing(FuncionarioL1::getDataNascimento).reversed());
