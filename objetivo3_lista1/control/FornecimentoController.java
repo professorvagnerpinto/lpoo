@@ -7,7 +7,7 @@ import java.util.List;
 
 import model.Fornecedor;
 import model.Fornecimento;
-import model.ProdutoL3;
+import model.ProdutoO3L1;
 
 public class FornecimentoController {
 
@@ -16,9 +16,9 @@ public class FornecimentoController {
 		Fornecedor f1 = new Fornecedor("16.785.406/0001-67", "Dirley 5355559292", "Só Alimento S.A.");
 		Fornecedor f2 = new Fornecedor("87.332.600/0001-35", "Josiane 5355554444", "Secos e Molhados S.A.");
 
-		ProdutoL3 p1 = new ProdutoL3(1L, "Arroz", 100, 18.90, f1);
-		ProdutoL3 p2 = new ProdutoL3(2L, "Feijão", 100, 8.90, f1);
-		ProdutoL3 p3 = new ProdutoL3(3L, "Batata", 100, 2.90, f2);
+		ProdutoO3L1 p1 = new ProdutoO3L1(1L, "Arroz", 100, 18.90, f1);
+		ProdutoO3L1 p2 = new ProdutoO3L1(2L, "Feijão", 100, 8.90, f1);
+		ProdutoO3L1 p3 = new ProdutoO3L1(3L, "Batata", 100, 2.90, f2);
 		
 		//calcula o total
 		double total = p1.getPreco() * 50;

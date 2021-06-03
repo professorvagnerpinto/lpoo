@@ -7,14 +7,14 @@ import java.util.GregorianCalendar;
 import model.Corrida;
 import model.Motorista;
 import model.Usuario;
-import model.VeiculoL1;
+import model.VeiculoO3L1;
 
 public class UberController {
 	
 	public static void main(String[] args) {
 		//d
 		Usuario u = new Usuario(1L, "Ana Dias", "ana@email.com", "5395551234");
-		VeiculoL1 v = new VeiculoL1(1L, "Chevrolet Onix Plus", "III4321", 2021);
+		VeiculoO3L1 v = new VeiculoO3L1(1L, "Chevrolet Onix Plus", "III4321", 2021);
 		Motorista m = new Motorista(1L, "Rafael Silva", "rafa@email.com", "5395557654", v);
 		
 		Corrida c1 = new Corrida(1L, "Pix", "token Pix AcsTRDHF", new GregorianCalendar(2021, 5, 10, 10, 01), 25.00, u, m);

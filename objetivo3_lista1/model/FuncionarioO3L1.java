@@ -3,18 +3,18 @@ package model;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-public class FuncionarioL3 {
+public class FuncionarioO3L1 {
 	private long id;
 	private String cpf;
 	private String nome;
 	private String sobrenome;
 	private Calendar dataNascimento;
 
-	public FuncionarioL3() {
+	public FuncionarioO3L1() {
 		super();
 	}
 
-	public FuncionarioL3(long id, String cpf, String nome, String sobrenome, Calendar dataNascimento) {
+	public FuncionarioO3L1(long id, String cpf, String nome, String sobrenome, Calendar dataNascimento) {
 		super();
 		this.id = id;
 		this.cpf = cpf;

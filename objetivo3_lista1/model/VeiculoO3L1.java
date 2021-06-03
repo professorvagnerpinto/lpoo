@@ -1,17 +1,17 @@
 package model;
 
-public class VeiculoL1 {
+public class VeiculoO3L1 {
 	private long id;
 	private String tipo;
 	private String placa;
 	private int anoFabricacao;
 	private Motorista motorista;
 	
-	public VeiculoL1() {
+	public VeiculoO3L1() {
 		super();
 	}
 
-	public VeiculoL1(long id, String tipo, String placa, int anoFabricacao) {
+	public VeiculoO3L1(long id, String tipo, String placa, int anoFabricacao) {
 		super();
 		this.id = id;
 		this.tipo = tipo;
