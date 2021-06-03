@@ -8,13 +8,13 @@ public class Fornecimento {
 	private Calendar data;
 	private double total;
 	private Fornecedor fornecedor;
-	private ProdutoL1 produto;
+	private ProdutoL3 produto;
 
 	public Fornecimento() {
 		super();
 	}
 
-	public Fornecimento(Calendar data, double total, Fornecedor fornecedor, ProdutoL1 produto) {
+	public Fornecimento(Calendar data, double total, Fornecedor fornecedor, ProdutoL3 produto) {
 		super();
 		this.data = data;
 		this.total = total;
@@ -46,11 +46,11 @@ public class Fornecimento {
 		this.fornecedor = fornecedor;
 	}
 
-	public ProdutoL1 getProduto() {
+	public ProdutoL3 getProduto() {
 		return produto;
 	}
 
-	public void setProduto(ProdutoL1 produto) {
+	public void setProduto(ProdutoL3 produto) {
 		this.produto = produto;
 	}
 

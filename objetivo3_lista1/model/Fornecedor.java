@@ -7,7 +7,7 @@ public class Fornecedor {
 	private String cnpj;
 	private String contato;
 	private String nome;
-	private List<ProdutoL1> produtos = new ArrayList<>();
+	private List<ProdutoL3> produtos = new ArrayList<>();
 	
 	public Fornecedor() {
 		super();
@@ -44,11 +44,11 @@ public class Fornecedor {
 		this.nome = nome;
 	}
 
-	public List<ProdutoL1> getProdutos() {
+	public List<ProdutoL3> getProdutos() {
 		return produtos;
 	}
 
-	public void setProdutos(List<ProdutoL1> produtos) {
+	public void setProdutos(List<ProdutoL3> produtos) {
 		this.produtos = produtos;
 	}
 
